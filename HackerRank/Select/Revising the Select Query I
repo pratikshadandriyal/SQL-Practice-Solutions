@@ -1,0 +1,7 @@
+-- Problem: Revising the Select Query I
+-- Link: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+-- Difficulty: Easy
+-- Topic: SELECT, WHERE, AND conditions
+
+SELECT * FROM CITY
+WHERE POPULATION > 100000 AND COUNTRYCODE = 'USA';
